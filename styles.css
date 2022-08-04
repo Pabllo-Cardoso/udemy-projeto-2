@@ -1,0 +1,131 @@
+
+body { /*corpo da página*/
+    font-family: Tahoma,Arial,sans-serif;/* texto fonte da página*/
+    margin: 0;/* margem zerada da página*/
+    padding: 0;
+    background: rgb(233, 236, 227);
+}
+#principal {
+    width: 1024px;
+    margin: 20px auto;
+}
+.header-topo {
+    height: 50px;
+    background: black;
+    position: relative;
+}
+.logotipo {
+    margin: 0 0 0 50px;
+}
+.header-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header-nav ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.header-nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 13px;
+}
+.header-nav a {
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color .3s linear;
+}
+.header-nav a:hover {
+    color: white;
+}
+.portifólio {
+    padding: 50px 100px; 
+    text-align: center;
+}
+.portifólio h1 {
+    font-size: 35px;
+    color: #252525;
+}
+.portifólio p {
+    font-size: 16px; 
+    line-height: 2;
+    color: #555;
+}
+.galeria{
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+.galeria-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin: 4px;
+    margin-top: 30px;
+}
+.galeria-titulo-1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.galeria-titulo-2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.galeria-titulo-3{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;    
+}
+.about {
+    background-color: rgb(197, 193, 193);
+    background-image: url(./imagem\ bg\ detalhes.jpg);
+    background-repeat: repeat;
+    padding: 100px;
+    color: white;
+}
+.about h2 {
+    text-transform: uppercase;
+    font-style: 100px;
+    font-weight: normal;
+    font-size: 40px;
+}
+.about p {
+    line-height: 1.5;
+    width: 100%;
+}
+#contact{
+    margin: 50px 0;
+}
+#contact address{
+    color: black;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bold; 
+}
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+}
+.maps iframe{
+width: 100%;
+}
+.rodapé{
+background: #555;
+padding: 25px;
+font-size: 15px;
+color: white;
+letter-spacing: 5px;
+}
